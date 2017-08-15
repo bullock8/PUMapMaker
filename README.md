@@ -2,10 +2,10 @@
 This is a tool made for drone flights where the overlap of images is important.  This requires an input of a KML file of the four corner points of the area of interest as well as the desired altitude of flight and desired minimum overlap percentage.  It outputs a file with all of the waypoints needed for the drone flight to maintain a set minimum overlap percentage.  This is made for use alongside the [Autopilot app](https://autoflight.hangar.com/) available for iOS (https://autoflight.hangar.com/).
 ## Installing
 PUMapMaker requires the utm and pykml libraries.
-'''
+```
 pip3 install utm
 pip3 install pykml
-'''
+```
 
 ## User Guide
 ### [PUMapMaker Tutorial](https://purdue0-my.sharepoint.com/personal/bullock8_purdue_edu/_layouts/15/guestaccess.aspx?docid=009f9433d13f84e9bb2e5dfc15546c65e&authkey=AU0qOeL4O9MEKjr2-hZw0Oo)
