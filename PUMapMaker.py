@@ -154,7 +154,7 @@ for x in range(0, len(waypoints)):
         ptName = "P" + str(int(math.floor(z/2))) +"-1"
     else:
         ptName = "P" + str(int(math.floor(z/2)-1)) +"-2"
-    tup = utm.to_latlon(waypoints[x][0], waypoints[x][1], 16, 'T')
+    tup = utm.to_latlon(waypoints[x][0], waypoints[x][1], utm1[2], utm1[3])
     repeat = """<Placemark>
         <name>{}</name>
         <styleUrl>#pointStyleMap</styleUrl>
